@@ -1,0 +1,66 @@
+.signup__form__container {
+  padding-top: 1rem;
+  padding-left: 28rem;
+  font-family: "Oswald", sans-serif;
+  color: #163a1e;
+}
+
+.signup__form {
+  margin-top: 1rem;
+  display: flex;
+  border: 1px solid;
+  width: 40rem;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.login__submit {
+  padding: 0.2rem;
+  margin-top: 1rem;
+  width: 7rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #163a1e;
+}
+.login__submit:hover {
+  padding: 0.2rem;
+  margin-top: 1rem;
+  width: 7rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  border-radius: 50px;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+}
+
+.signup__field {
+  margin: 0.1rem;
+  padding: 0.4rem;
+  background-color: #fcfaeb;
+  border-radius: 50px;
+  width: 20rem;
+  text-transform: uppercase capitalize;
+}
+
+.login__head {
+  text-decoration: underline;
+}
+
+.signup__label {
+  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.have_already {
+  padding-top: 1rem;
+  padding-left: 35rem;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+}

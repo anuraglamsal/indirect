@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,900;1,900&display=swap");
+.hidden__button {
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: black;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: black;
+}
+
+/*    
+    Sidebar wrapper styles    
+    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases 
+    */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100vh;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #e0eede;
+  opacity: 1;
+  width: 20vw;
+  border-radius: 0 3rem 3rem 0;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #f5c654;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: none important;
+  text-align: center;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: #163a1e;
+  text-decoration: none;
+  outline: none important;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0rem;
+  font-size: 2rem;
+  transition: 0.4s;
+}
+
+.bm-item:hover {
+  color: #163a1e;
+  letter-spacing: 1rem;
+  transition: 0.4s;
+}
+
+/* 
+.bm-item::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffbf00;
+  transition: width 0.3s;
+}
+
+.bm-item:hover::after {
+  width: 52%;
+  transition: width 0.3s;
+} */
+
+@media (min-width: 1024px) {
+  #sidebar {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+}
+
+.chat__logout {
+  display: inline-block;
+  color: #ff7b7b;
+  text-decoration: none;
+  outline: none important;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0rem;
+  font-size: 2rem;
+  transition: 1s;
+  border: none;
+  background-color: #e0eede;
+  margin-left: 6.5rem;
+}
+
+.chat__logout:hover {
+  display: inline-block;
+  color: red;
+  text-decoration: none;
+  outline: none important;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0rem;
+  font-size: 2rem;
+  transition: 1s;
+  border: none;
+  background-color: #e0eede;
+  margin-left: 6.5rem;
+}

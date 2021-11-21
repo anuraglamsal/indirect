@@ -1,0 +1,102 @@
+/* Add styles to the form container */
+.form-container {
+  width: 20rem;
+  height: 25rem;
+
+  background-color: #fcfaeb;
+  bottom: 2px;
+  right: 3px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 48px 50px 10px 10px;
+}
+
+.form__container__dad {
+  width: 20rem;
+  height: 25rem;
+  background-color: #ffa001;
+  bottom: 1rem;
+  position: absolute;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem auto;
+  border: 0.1rem solid #163a1e;
+  border-radius: 50px 50px 0 50px;
+  overflow: hidden;
+}
+
+.form__child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+.form__child__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__submit {
+  width: 10rem;
+  margin: 0.2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: #fcfaeb;
+}
+.chat__old {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: #fcfaeb;
+  margin-left: 5rem;
+  padding: 0.5rem;
+}
+
+.textarea {
+  width: 20rem;
+  height: 2rem;
+}
+
+.chat__received {
+  background-color: #163a1e;
+  border-radius: 20px 20px 20px 0;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  color: white;
+}
+.chat__sent {
+  display: flex;
+  background-color: white;
+  border: 0.5px solid;
+  border-radius: 20px 20px 0px 20px;
+  padding: 0.5rem;
+  text-align: right;
+  color: black;
+  margin: 0.2rem;
+}
+
+.chat_box_open,
+ul {
+  display: none;
+}
+
+button:active + ul,
+:checked + ul {
+  display: flex;
+}
+.chat_box_button {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+
+  padding: 0.5rem;
+  border-radius: 50% 50% 0 50%;
+  height: 3rem;
+  width: 3rem;
+  border: 0.1px solid #163a1e;
+}

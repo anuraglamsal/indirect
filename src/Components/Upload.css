@@ -1,0 +1,206 @@
+.upload__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #e0eede;
+  height: 100%;
+  min-height: 100vh;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  left: 10rem;
+}
+.upload__container__right {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #e0eede;
+  width: 30%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  right: 10rem;
+}
+
+.upload__container__image {
+  height: 15rem;
+  width: 15rem;
+  padding: 0.2rem;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: block;
+  height: 5rem;
+  width: 5rem;
+  padding: 0.2rem;
+  background: white;
+  opacity: 0.8;
+  border: 3px dashed;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.upload__text__header {
+  font-family: "Oswald", sans-serif;
+  color: #163a1e;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+}
+
+.upload__submit {
+  padding: 0.2rem;
+  margin-top: 1rem;
+  width: 4rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #163a1e;
+}
+
+.upload__submit:hover {
+  padding: 0.2rem;
+  margin-top: 1rem;
+  width: 4rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  border-radius: 50px;
+  letter-spacing: 0.05rem;
+  transition: 0.5s;
+}
+
+.upload__delete {
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  width: 4rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: white;
+  background-color: red;
+  border: none;
+}
+
+.upload__delete:hover {
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  width: 4rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  border-radius: 50px;
+  letter-spacing: 0.05rem;
+  transition: 0.5s;
+}
+
+.ReactTags__tags {
+  position: relative;
+}
+
+.ReactTags__clearAll {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  background: #f88d8d;
+  color: #fff;
+  border: none;
+}
+
+/* Styles for the input */
+.ReactTags__tagInput {
+  border-radius: 2px;
+  display: inline-block;
+}
+.ReactTags__tagInput input.ReactTags__tagInputField,
+.ReactTags__tagInput input.ReactTags__tagInputField:focus {
+  height: 2rem;
+  width: 15rem;
+  margin: 0;
+  font-size: 12px;
+  border: none;
+  border-radius: 20px;
+  min-width: 150px;
+}
+
+.ReactTags__editInput {
+  border-radius: 1px;
+}
+
+.ReactTags__editTagInput {
+  display: inline-flex;
+}
+
+/* Styles for selected tags */
+.ReactTags__selected span.ReactTags__tag {
+  border: 1px solid #ddd;
+  background: #fcfaeb;
+  color: #163a1e;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+  padding: 5px;
+  margin: 0.2rem;
+  border-radius: 2px;
+}
+.ReactTags__selected span.ReactTags__tag:first-child {
+  margin-left: 0px;
+}
+.ReactTags__selected a.ReactTags__remove {
+  color: #aaa;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Styles for suggestions */
+.ReactTags__suggestions {
+  position: absolute;
+  top: 60px;
+}
+.ReactTags__suggestions ul {
+  list-style-type: none;
+  box-shadow: 0.05em 0.01em 0.5em rgba(0, 0, 0, 0.2);
+  background: white;
+  width: 200px;
+}
+.ReactTags__suggestions li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0;
+}
+.ReactTags__suggestions li mark {
+  text-decoration: underline;
+  background: none;
+  font-weight: 600;
+}
+.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+  background: #b7cfe0;
+  cursor: pointer;
+}
+
+.ReactTags__remove {
+  margin-left: 0.5rem;
+  width: 1rem;
+  border: none;
+  cursor: pointer;
+  background: red;
+  color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}

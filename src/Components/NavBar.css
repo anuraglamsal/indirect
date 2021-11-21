@@ -1,0 +1,19 @@
+li {
+  display: inline;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+ul {
+  background-color: black;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+}
+
